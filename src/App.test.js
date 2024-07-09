@@ -22,7 +22,7 @@ test("Renders Table Header - Task Column", () => {
 
 test("Renders Table Header - Priority Column", () => {
   render(<App />);
-  const linkElement = screen.getByText("Priorityx");
+  const linkElement = screen.getByText("Priority");
   expect(linkElement).toBeInTheDocument();
 });
 
