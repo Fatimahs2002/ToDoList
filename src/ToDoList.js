@@ -33,7 +33,7 @@ class ToDoList extends React.Component<{ items: Item[] }, {}> {
         <thead>
           <tr key={`task_prioirity`}>
             <th>Task</th>
-            <th>Priority</th>
+            <th>Prioritie</th>
           </tr>
         </thead>
         <tbody>
